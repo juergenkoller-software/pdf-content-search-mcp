@@ -116,7 +116,7 @@ Same pattern — stdio MCP server.
 ┌────────────────┐  JSON-RPC stdio   ┌────────────────┐  HTTP+Bearer   ┌────────────────────┐
 │  Claude/Cursor │ ───────────────►  │ pdfcs-mcp      │ ─────────────► │ PDF Content Search │
 │  (MCP client)  │ ◄───────────────  │   (this repo)  │ ◄───────────── │  (port 44477)      │
-└────────────────┘                    └────────────────┘                └────────────────────┘
+└────────────────┘                   └────────────────┘                └────────────────────┘
 ```
 
 PDF Content Search owns the index (full-text + OCR + extracted metadata), the AI-naming pipeline, the iOS/Android sync, and the search engine. This bridge keeps the stdio MCP transport open-source so you can audit the wire format independently.
