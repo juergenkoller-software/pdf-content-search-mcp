@@ -1,0 +1,12 @@
+{
+  "_comment": "Example Claude Desktop config for PDF Content Search MCP. Copy the entry into your ~/Library/Application Support/Claude/claude_desktop_config.json under 'mcpServers'.",
+  "mcpServers": {
+    "pdf-content-search": {
+      "command": "/usr/local/bin/pdf-content-search-mcp",
+      "env": {
+        "PDF_CS_TOKEN": "<paste-from-pdf-content-search-settings-api-server>",
+        "PDF_CS_PORT": "44477"
+      }
+    }
+  }
+}
