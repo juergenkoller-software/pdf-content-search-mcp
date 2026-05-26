@@ -4,6 +4,7 @@
 [![Platform](https://img.shields.io/badge/platform-macOS%2012%2B-blue.svg)](https://apple.com/macos)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![MCP](https://img.shields.io/badge/protocol-MCP-purple.svg)](https://modelcontextprotocol.io)
+[![juergenkoller-software/pdf-content-search-mcp MCP server](https://glama.ai/mcp/servers/juergenkoller-software/pdf-content-search-mcp/badges/score.svg)](https://glama.ai/mcp/servers/juergenkoller-software/pdf-content-search-mcp)
 
 **Full-text PDF search + OCR for Claude, Cursor, and any MCP client.**
 
