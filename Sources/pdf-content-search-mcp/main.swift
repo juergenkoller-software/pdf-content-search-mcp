@@ -1,4 +1,7 @@
 import Foundation
+#if canImport(FoundationNetworking)
+import FoundationNetworking
+#endif
 
 // Stdio ↔ HTTP Bridge for PDF Content Search MCP server.
 // Claude Desktop's file-based mcpServers schema accepts only stdio — this
