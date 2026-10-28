@@ -8,9 +8,9 @@
 
 **Full-text PDF search + OCR for Claude, Cursor, and any MCP client.**
 
-This is the official [Model Context Protocol](https://modelcontextprotocol.io) bridge for [**PDF Content Search**](https://store.juergenkoller.software/en/apps/pdf-content-search) — a native macOS app that indexes thousands of PDFs (including scanned ones via Apple Vision OCR) and finds anything in under a second.
+This is the official [Model Context Protocol](https://modelcontextprotocol.io) bridge for [**PDF Content Search**](https://store.juergenkoller.software/en/apps/pdf-content-search?mtm_source=mcp&mtm_medium=agent&mtm_campaign=pcs-mcp&mtm_content=github-readme) — a native macOS app that indexes thousands of PDFs (including scanned ones via Apple Vision OCR) and finds anything in under a second.
 
-> **You need the PDF Content Search app installed and running.** This MCP server is a stdio→HTTP bridge — the index, OCR engine, and search live in the app. Get PDF Content Search at [store.juergenkoller.software/apps/pdf-content-search](https://store.juergenkoller.software/en/apps/pdf-content-search).
+> **You need the PDF Content Search app installed and running.** This MCP server is a stdio→HTTP bridge — the index, OCR engine, and search live in the app. Get PDF Content Search at [store.juergenkoller.software/apps/pdf-content-search](https://store.juergenkoller.software/en/apps/pdf-content-search?mtm_source=mcp&mtm_medium=agent&mtm_campaign=pcs-mcp&mtm_content=github-readme).
 
 ---
 
@@ -29,7 +29,7 @@ The app exposes search, filter, OCR, indexing, and document-metadata tools throu
 ### Prerequisites
 
 1. **macOS 12 (Monterey) or later**
-2. **PDF Content Search app installed and running** — [get it here](https://store.juergenkoller.software/en/apps/pdf-content-search) (one-time purchase €89.99, 30-day free trial, includes free iOS + Android scanner companion apps)
+2. **PDF Content Search app installed and running** — [get it here](https://store.juergenkoller.software/en/apps/pdf-content-search?mtm_source=mcp&mtm_medium=agent&mtm_campaign=pcs-mcp&mtm_content=github-readme) (one-time purchase €89.99, 30-day free trial, includes free iOS + Android scanner companion apps)
 3. **Swift 5.9+** (Xcode 15+) if building from source
 
 ### Build from source
@@ -139,7 +139,7 @@ PDF Content Search replaces complex folder structures with lightning-fast full-t
 - **MCP server** (this repo) + REST API
 - **Made for offices, law firms, accountants** — anyone with lots of documents
 
-→ **[Get PDF Content Search at store.juergenkoller.software](https://store.juergenkoller.software/en/apps/pdf-content-search)**
+→ **[Get PDF Content Search at store.juergenkoller.software](https://store.juergenkoller.software/en/apps/pdf-content-search?mtm_source=mcp&mtm_medium=agent&mtm_campaign=pcs-mcp&mtm_content=github-readme)**
 
 ---
 
